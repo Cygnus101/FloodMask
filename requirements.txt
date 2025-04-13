@@ -1,0 +1,8 @@
+tensorflow
+numpy
+matplotlib
+scikit-learn
+tqdm
+Pillow
+imageio
+tifffile
