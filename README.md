@@ -13,11 +13,11 @@ project/ <br>
 ├── best_unet_model.keras <br>
 ├── images/ <br>
 │   ├── test_before/ <br>
-│   │   ├── img1.png <br>
-│   │   └── img2.png <br>
+│   │    ├── img1.png <br>
+│   │    └── img2.png <br>
 │   └── test_after/ <br>
-│       ├── img1.png <br>
-│       └── img2.png <br>
+│   │    ├── img1.png <br>
+│   │    └── img2.png <br>
 └── predicted_masks/ <br>
 
 
