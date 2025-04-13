@@ -8,17 +8,17 @@ Using before and after images from Copernicus Sentinel-1, a program has been dev
 
 #### a) Folder Structure
 
-project/
-├── inference_flood.ipynb
-├── best_unet_model.keras
-├── images/
-│   ├── test_before/
-│   │   ├── img1.png
-│   │   └── img2.png
-│   └── test_after/
-│       ├── img1.png
-│       └── img2.png
-└── predicted_masks/
+project/ <br>
+├── inference_flood.ipynb <br>
+├── best_unet_model.keras <br>
+├── images/ <br>
+│   ├── test_before/ <br>
+│   │   ├── img1.png <br>
+│   │   └── img2.png <br>
+│   └── test_after/ <br>
+│       ├── img1.png <br>
+│       └── img2.png <br>
+└── predicted_masks/ <br>
 
 
 #### b) Install packages
