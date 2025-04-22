@@ -11,13 +11,12 @@ Using before and after images from Copernicus Sentinel-1, a program has been dev
 project/ <br>
 ├── inference_flood.ipynb <br>
 ├── best_unet_model.keras <br>
-├── images/ <br>
-│   ├── test_before/ <br>
-│   │    ├── img1.png <br>
-│   │    └── img2.png <br>
-│   └── test_after/ <br>
-│   │    ├── img1.png <br>
-│   │    └── img2.png <br>
+├── test_before/ <br>
+│    ├── img1.png <br>
+│    └── img2.png <br>
+└── test_after/ <br>
+│    ├── img1.png <br>
+│    └── img2.png <br>
 └── predicted_masks/ <br>
 
 
@@ -28,7 +27,7 @@ Install dependencies from `requirements.txt`:
 
 #### c) Run inference
 
-Open and run `inference_flood.ipynb`.
+Open and run `inference_flood.ipynb` or `Inferencev2.ipynb`.
 
 ---
 
@@ -41,7 +40,8 @@ Open and run `inference_flood.ipynb`.
      - https://kaggle.com/datasets/1aab6e98f15ced12f05fd89457ef02f0c8f8235875210d821ca9fe918e1d8694  
      - https://kaggle.com/datasets/30c45215e79c2d5e216b8bc3e7b8f15558ffd6743380d5a02a435513a0611d6b  
    - Save them together as a dataset named `floodmapping2` in your Kaggle account.  
-   - Run `flooddatasetmaker.ipynb`, then `floodunetv1.ipynb`.
+   - Run `flooddatasetmaker.ipynb`, then `floodunetv1.ipynb`. or alternatively `floodunetplusplus.ipynb`.
+   - To run pix2pix, convert `floodpix2pix.py` to .ipyn and run in kaggle
 
 2. **Using Single Dataset**  
    - Use this dataset:  
